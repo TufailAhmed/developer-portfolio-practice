@@ -10,9 +10,11 @@ body{
 .half-width{
     width: 50%;
     padding-left: 6%;
+    box-shadow: 10px 10 px yellowgreen;
 }
 .half-width img{
     width: 80%;
+
 }
 .link-button{
     text-decoration: none;
@@ -36,4 +38,25 @@ body{
 }
 .flexible-container{
 display: flex;
+}
+.orange-color{
+   color: orange; 
+}
+.experience-item{
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 10px 40px gray;
+}
+.experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+border-image: linear-gradient(blue,cyan);
+border-image-slice:1;
 }
